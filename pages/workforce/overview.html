@@ -4,35 +4,35 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
   <title>TANGEDCO</title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="../../vendors/feather/feather.css">
-  <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <link href="../../vendors/feather/feather.css" rel="stylesheet">
+  <link href="../../vendors/ti-icons/css/themify-icons.css" rel="stylesheet">
+  <link href="../../vendors/css/vendor.bundle.base.css" rel="stylesheet">
   <!-- endinject -->
   <!-- Plugin css for this page -->
-  <link rel="stylesheet" href="../../vendors/datatables.net-bs4/dataTables.bootstrap4.css">
-  <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" type="text/css" href="../../js/select.dataTables.min.css">
+  <link href="../../vendors/datatables.net-bs4/dataTables.bootstrap4.css" rel="stylesheet">
+  <link href="../../vendors/ti-icons/css/themify-icons.css" rel="stylesheet">
+  <link href="../../js/select.dataTables.min.css" rel="stylesheet" type="text/css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="../../css/vertical-layout-light/style.css">
+  <link href="../../css/vertical-layout-light/style.css" rel="stylesheet">
   <!-- endinject -->
-  <link rel="shortcut icon" href="../../images/favicon.png"/>
+  <link href="../../images/favicon.png" rel="shortcut icon"/>
 </head>
 <body>
 <div class="container-scroller">
   <!-- partial:partials/_navbar.html -->
   <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
     <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-      <a class="navbar-brand brand-logo mr-5" href="../../index.html"><img src="../../images/TANGEDCO.png" class="mr-2"
-                                                                           alt="logo"/></a>
-      <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/TANGEDCO_Logo.png"
-                                                                           alt="logo"/></a>
+      <a class="navbar-brand brand-logo mr-5" href="../../index.html"><img alt="logo" class="mr-2"
+                                                                           src="../../images/TANGEDCO.png"/></a>
+      <a class="navbar-brand brand-logo-mini" href="../../index.html"><img alt="logo"
+                                                                           src="../../images/TANGEDCO_Logo.png"/></a>
     </div>
     <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-      <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+      <button class="navbar-toggler navbar-toggler align-self-center" data-toggle="minimize" type="button">
         <span class="icon-menu"></span>
       </button>
       <ul class="navbar-nav mr-lg-2">
@@ -43,19 +43,19 @@
                   <i class="icon-search"></i>
                 </span>
             </div>
-            <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now"
-                   aria-label="search" aria-describedby="search">
+            <input aria-describedby="search" aria-label="search" class="form-control" id="navbar-search-input"
+                   placeholder="Search now" type="text">
           </div>
         </li>
       </ul>
       <ul class="navbar-nav navbar-nav-right">
         <li class="nav-item dropdown">
-          <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+          <a class="nav-link count-indicator dropdown-toggle" data-toggle="dropdown" href="#" id="notificationDropdown">
             <i class="icon-bell mx-0"></i>
             <span class="count"></span>
           </a>
-          <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
-               aria-labelledby="notificationDropdown">
+          <div aria-labelledby="notificationDropdown"
+               class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list">
             <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
             <a class="dropdown-item preview-item">
               <div class="preview-thumbnail">
@@ -99,10 +99,10 @@
           </div>
         </li>
         <li class="nav-item nav-profile dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-            <img src="../../images/faces/face28.jpg" alt="profile"/>
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="profileDropdown">
+            <img alt="profile" src="../../images/faces/face28.jpg"/>
           </a>
-          <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+          <div aria-labelledby="profileDropdown" class="dropdown-menu dropdown-menu-right navbar-dropdown">
             <a class="dropdown-item">
               <i class="ti-settings text-primary"></i>
               Settings
@@ -114,8 +114,8 @@
           </div>
         </li>
       </ul>
-      <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
-              data-toggle="offcanvas">
+      <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" data-toggle="offcanvas"
+              type="button">
         <span class="icon-menu"></span>
       </button>
     </div>
@@ -125,7 +125,7 @@
     <!-- partial:partials/_settings-panel.html -->
     <div class="theme-setting-wrapper">
       <div id="settings-trigger"><i class="ti-settings"></i></div>
-      <div id="theme-settings" class="settings-panel">
+      <div class="settings-panel" id="theme-settings">
         <i class="settings-close ti-close"></i>
         <p class="settings-heading">SIDEBAR SKINS</p>
         <div class="sidebar-bg-options selected" id="sidebar-light-theme">
@@ -159,7 +159,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="collapse" href="#billing" aria-expanded="false" aria-controls="billing">
+          <a aria-controls="billing" aria-expanded="false" class="nav-link" data-toggle="collapse" href="#billing">
             <i class="icon-layout menu-icon"></i>
             <span class="menu-title">Billing</span>
             <i class="menu-arrow"></i>
@@ -172,7 +172,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="collapse" href="#fms" aria-expanded="false" aria-controls="fms">
+          <a aria-controls="fms" aria-expanded="false" class="nav-link" data-toggle="collapse" href="#fms">
             <i class="icon-layout menu-icon"></i>
             <span class="menu-title">FMS</span>
             <i class="menu-arrow"></i>
@@ -186,7 +186,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="collapse" href="#wfm" aria-expanded="false" aria-controls="wfm">
+          <a aria-controls="wfm" aria-expanded="false" class="nav-link" data-toggle="collapse" href="#wfm">
             <i class="icon-layout menu-icon"></i>
             <span class="menu-title">WFM</span>
             <i class="menu-arrow"></i>
@@ -208,12 +208,12 @@
 
 
           <div class="col-md-12 grid-margin stretch-card">
-            <div class="btn-group" role="group" aria-label="Basic example" style="width:100%">
+            <div aria-label="Basic example" class="btn-group" role="group" style="width:100%">
               <a href="hierarchy.html">
-                <button type="button" class="btn btn-primary active">Hierarchy</button>
+                <button class="btn btn-primary active" type="button">Hierarchy</button>
               </a>
               <a href="overview.html" style="margin-left: 10px;">
-                <button type="button" class="btn btn-info">Overview</button>
+                <button class="btn btn-info" type="button">Overview</button>
               </a>
             </div>
           </div>
@@ -319,8 +319,7 @@
 
             <div class="card card-light-danger">
               <div class="card-body">
-                <p class="mb-4">Active Outage <i class="icon-layout menu-icon"></i>
-                  </i></p>
+                <p class="mb-4">Active Outage <i class="icon-layout menu-icon"></i></p>
                 <p class="fs-30 mb-2">26</p>
               </div>
             </div>
@@ -354,477 +353,476 @@
                       <td>64,00,000</td>
                       <td class="w-100 px-0">
                         <div class="progress progress-md mx-4">
-                          <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70"
-                               aria-valuemin="0" aria-valuemax="100">20%
+                          <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="20" class="progress-bar bg-primary"
+                               role="progressbar" style="width: 40%">20%
                           </div>
+                        </div>
+                      </td>
                       <td>2.56Cr</td>
 
+                      <td class="font-weight-medium">
+                        <div class="badge badge-danger">80%</div>
+                      </td>
+                    </tr>
+
+
+                    </tbody>
+                  </table>
                 </div>
-                </td>
-                <td class="font-weight-medium">
-                  <div class="badge badge-danger">80%</div>
-                </td>
-                </tr>
-
-
-                </tbody>
-                </table>
               </div>
             </div>
           </div>
+
         </div>
 
-      </div>
 
-
-      <div class="row">
-        <div class="col-md-12 stretch-card grid-margin">
-
-
-          <div class="card">
-            <div class="card-body">
-              <p class="card-title mb-0">Financial Collection Data</p>
-              <div class="table-responsive">
-                <table class="table table-striped table-borderless">
-                  <thead>
-                  <tr>
-                    <th>S.No</th>
-                    <th>Type</th>
-                    <th>Total No</th>
-                    <th>Financial</th>
-                    <th>Percapital</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-
-                  <tr>
-                    <td>1</td>
-                    <td>1 &empty;
-                    </td>
-                    <td>6000</td>
-                    <td>50Lakhs</td>
-                    <td>833.33/-</td>
-
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>3 &empty; CTPT
-                    </td>
-                    <td>3500</td>
-                    <td>8Cr</td>
-                    <td>3000/-</td>
-
-                  </tr>
-
-
-                  <tr>
-                    <td>3</td>
-                    <td>3 &empty; CTPT
-                    </td>
-                    <td>3500</td>
-                    <td>8Cr</td>
-                    <td>22,857.33/-</td>
-
-                  </tr>
-
-                  <tr>
-                    <td>4</td>
-                    <td>3 &empty; LTCT
-                    </td>
-                    <td>1500</td>
-                    <td>10Cr</td>
-                    <td>66,666.66/-</td>
-
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td>3 &empty; HTCT
-                    </td>
-                    <td>800</td>
-                    <td>15Cr</td>
-                    <td>18,7500.33/-</td>
-
-                  </tr>
-
-
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-      <!-- <div class="row">
+        <div class="row">
           <div class="col-md-12 stretch-card grid-margin">
 
 
-              <div class="card">
-                  <div class="card-body">
-                      <div class="btn-group" role="group" aria-label="Basic example" style="width:100%">
-                          <button type="button" class="btn btn-info btn-icon-text">
-                              No of Old Meter
-                            </button><br><br>
+            <div class="card">
+              <div class="card-body">
+                <p class="card-title mb-0">Financial Collection Data</p>
+                <div class="table-responsive">
+                  <table class="table table-striped table-borderless">
+                    <thead>
+                    <tr>
+                      <th>S.No</th>
+                      <th>Type</th>
+                      <th>Total No</th>
+                      <th>Financial</th>
+                      <th>Percapital</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+                      <td>1</td>
+                      <td>1 &empty;
+                      </td>
+                      <td>6000</td>
+                      <td>50Lakhs</td>
+                      <td>833.33/-</td>
+
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>3 &empty; CTPT
+                      </td>
+                      <td>3500</td>
+                      <td>8Cr</td>
+                      <td>3000/-</td>
+
+                    </tr>
+
+
+                    <tr>
+                      <td>3</td>
+                      <td>3 &empty; CTPT
+                      </td>
+                      <td>3500</td>
+                      <td>8Cr</td>
+                      <td>22,857.33/-</td>
+
+                    </tr>
+
+                    <tr>
+                      <td>4</td>
+                      <td>3 &empty; LTCT
+                      </td>
+                      <td>1500</td>
+                      <td>10Cr</td>
+                      <td>66,666.66/-</td>
+
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>3 &empty; HTCT
+                      </td>
+                      <td>800</td>
+                      <td>15Cr</td>
+                      <td>18,7500.33/-</td>
+
+                    </tr>
+
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- <div class="row">
+            <div class="col-md-12 stretch-card grid-margin">
+
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="btn-group" role="group" aria-label="Basic example" style="width:100%">
                             <button type="button" class="btn btn-info btn-icon-text">
-                             No of New Meter
-                            </button>
-                  </div><br><br>
-
-                  <div class="btn-group" role="group" aria-label="Basic example" style="width:100%">
-
-                      <div class="dropdown">
-                          <button class="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuSizeButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Area
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuSizeButton3">
-                            <h6 class="dropdown-header">Settings</h6>
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
-                          </div>
-                        </div>
-
-                        <div class="dropdown">
-                          <button class="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuSizeButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Type of Meter
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuSizeButton3">
-                            <h6 class="dropdown-header">Settings</h6>
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
-                          </div>
-                        </div>
-
+                                No of Old Meter
+                              </button><br><br>
+                              <button type="button" class="btn btn-info btn-icon-text">
+                               No of New Meter
+                              </button>
                     </div><br><br>
 
                     <div class="btn-group" role="group" aria-label="Basic example" style="width:100%">
-                      <button type="button" class="btn btn-primary avtive">Input</button>
-                      <button type="button" class="btn btn-primary">Output</button>
+
+                        <div class="dropdown">
+                            <button class="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuSizeButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Area
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuSizeButton3">
+                              <h6 class="dropdown-header">Settings</h6>
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                          </div>
+
+                          <div class="dropdown">
+                            <button class="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuSizeButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Type of Meter
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuSizeButton3">
+                              <h6 class="dropdown-header">Settings</h6>
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                          </div>
+
+                      </div><br><br>
+
+                      <div class="btn-group" role="group" aria-label="Basic example" style="width:100%">
+                        <button type="button" class="btn btn-primary avtive">Input</button>
+                        <button type="button" class="btn btn-primary">Output</button>
+                      </div>
+
+                      <div class="table-responsive">
+                        <table class="table table-striped table-borderless">
+                          <thead>
+                            <tr>
+                              <th>S.No</th>
+                              <th>Area</th>
+                              <th>Count</th>
+                              <th>WareHouse Details</th>
+
+
+                            </tr>
+                          </thead>
+                          <tbody>
+
+                            <tr>
+
+
+                                <td>1</td>
+                                <td>Kodambakkam</td>
+                                <td>20</td>
+                                <td>Ashok Nagar</td>
+
+                            </tr>
+
+
+                            <tr>
+
+
+                                <td>2</td>
+                                <td>Guindy</td>
+                                <td>20</td>
+                                <td>Charu Nagar</td>
+
+
+                            </tr>
+
+                            <tr>
+
+
+
+                                <td>3</td>
+                                <td>KK Nagar</td>
+                                <td>28</td>
+                                <td>Anna Salai</td>
+
+
+                            </tr>
+                            <tr>
+
+
+
+                                <td>4</td>
+                                <td>Porur</td>
+                                <td>50</td>
+                                <td>Rajaji Nagar</td>
+
+
+                            </tr>
+
+
+                          </tbody>
+                        </table>
+                      </div>
+
+
                     </div>
+                  </div>
+              </div>
 
-                    <div class="table-responsive">
-                      <table class="table table-striped table-borderless">
-                        <thead>
-                          <tr>
-                            <th>S.No</th>
-                            <th>Area</th>
-                            <th>Count</th>
-                            <th>WareHouse Details</th>
+        </div>
+  -->
+        <div class="row">
+          <div class="col-md-12 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <div class="template-demo">
+                  <button class="btn btn-social-icon-text btn-youtube" type="button"><i class="ti-download"> 10 </i> Old
+                    Meter
+                  </button>
+                  <button class="btn btn-social-icon-text btn-twitter" type="button"><i class="ti-upload"> 20 </i>New
+                    Meter
+                  </button>
+                </div>
+                <br>
 
-
-                          </tr>
-                        </thead>
-                        <tbody>
-
-                          <tr>
-
-
-                              <td>1</td>
-                              <td>Kodambakkam</td>
-                              <td>20</td>
-                              <td>Ashok Nagar</td>
-
-                          </tr>
-
-
-                          <tr>
-
-
-                              <td>2</td>
-                              <td>Guindy</td>
-                              <td>20</td>
-                              <td>Charu Nagar</td>
-
-
-                          </tr>
-
-                          <tr>
-
-
-
-                              <td>3</td>
-                              <td>KK Nagar</td>
-                              <td>28</td>
-                              <td>Anna Salai</td>
-
-
-                          </tr>
-                          <tr>
-
-
-
-                              <td>4</td>
-                              <td>Porur</td>
-                              <td>50</td>
-                              <td>Rajaji Nagar</td>
-
-
-                          </tr>
-
-
-                        </tbody>
-                      </table>
+                <div class="template-demo">
+                  <div class="dropdown">
+                    <button aria-expanded="false" aria-haspopup="true" class="btn btn-light dropdown-toggle"
+                            data-toggle="dropdown" id="dropdownMenuSizeButton2" type="button">
+                      Area
+                    </button>
+                    <div aria-labelledby="dropdownMenuSizeButton2" class="dropdown-menu">
+                      <h6 class="dropdown-header">Settings</h6>
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
                     </div>
-
-
                   </div>
+
+                  <div class="dropdown">
+                    <button aria-expanded="false" aria-haspopup="true" class="btn btn-light dropdown-toggle"
+                            data-toggle="dropdown" id="dropdownMenuSizeButton3" type="button">
+                      Type
+                    </button>
+                    <div aria-labelledby="dropdownMenuSizeButton3" class="dropdown-menu">
+                      <h6 class="dropdown-header">Settings</h6>
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+
                 </div>
-            </div>
+                <br>
 
-      </div>
--->
-      <div class="row">
-        <div class="col-md-12 grid-margin stretch-card">
-          <div class="card">
-            <div class="card-body">
-              <div class="template-demo">
-                <button type="button" class="btn btn-social-icon-text btn-youtube"><i class="ti-download"> 10 </i> Old
-                  Meter
-                </button>
-                <button type="button" class="btn btn-social-icon-text btn-twitter"><i class="ti-upload"> 20 </i>New
-                  Meter
-                </button>
-              </div>
-              <br>
-
-              <div class="template-demo">
-                <div class="dropdown">
-                  <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuSizeButton2"
-                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Area
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuSizeButton2">
-                    <h6 class="dropdown-header">Settings</h6>
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                  </div>
+                <div aria-label="Basic example" class="btn-group" role="group" style="width:100%">
+                  <button class="btn btn-info" type="button">Input</button>
+                  <button class="btn btn-primary" type="button">Output</button>
                 </div>
 
-                <div class="dropdown">
-                  <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuSizeButton2"
-                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Type
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuSizeButton2">
-                    <h6 class="dropdown-header">Settings</h6>
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                  </div>
+
+                <div class="table-responsive">
+                  <table class="table table-striped table-borderless">
+                    <thead>
+                    <tr>
+                      <th>S.No</th>
+                      <th>Area</th>
+                      <th>Count</th>
+                      <th>WareHouse Details</th>
+
+
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+
+
+                      <td>1</td>
+                      <td>Kodambakkam</td>
+                      <td>20</td>
+                      <td>Ashok Nagar</td>
+
+                    </tr>
+
+
+                    <tr>
+
+
+                      <td>2</td>
+                      <td>Guindy</td>
+                      <td>20</td>
+                      <td>Charu Nagar</td>
+
+
+                    </tr>
+
+                    <tr>
+
+
+                      <td>3</td>
+                      <td>KK Nagar</td>
+                      <td>28</td>
+                      <td>Anna Salai</td>
+
+
+                    </tr>
+                    <tr>
+
+
+                      <td>4</td>
+                      <td>Porur</td>
+                      <td>50</td>
+                      <td>Rajaji Nagar</td>
+
+
+                    </tr>
+
+
+                    </tbody>
+                  </table>
                 </div>
 
               </div>
-              <br>
-
-              <div class="btn-group" role="group" aria-label="Basic example" style="width:100%">
-                <button type="button" class="btn btn-info">Input</button>
-                <button type="button" class="btn btn-primary">Output</button>
-              </div>
-
-
-              <div class="table-responsive">
-                <table class="table table-striped table-borderless">
-                  <thead>
-                  <tr>
-                    <th>S.No</th>
-                    <th>Area</th>
-                    <th>Count</th>
-                    <th>WareHouse Details</th>
-
-
-                  </tr>
-                  </thead>
-                  <tbody>
-
-                  <tr>
-
-
-                    <td>1</td>
-                    <td>Kodambakkam</td>
-                    <td>20</td>
-                    <td>Ashok Nagar</td>
-
-                  </tr>
-
-
-                  <tr>
-
-
-                    <td>2</td>
-                    <td>Guindy</td>
-                    <td>20</td>
-                    <td>Charu Nagar</td>
-
-
-                  </tr>
-
-                  <tr>
-
-
-                    <td>3</td>
-                    <td>KK Nagar</td>
-                    <td>28</td>
-                    <td>Anna Salai</td>
-
-
-                  </tr>
-                  <tr>
-
-
-                    <td>4</td>
-                    <td>Porur</td>
-                    <td>50</td>
-                    <td>Rajaji Nagar</td>
-
-
-                  </tr>
-
-
-                  </tbody>
-                </table>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-12 stretch-card grid-margin">
-
-
-          <div class="card">
-            <div class="card-body">
-              <p class="card-title mb-0">Units</p><br>
-              <p>Capacity
-                <button style="float: right" type="button" class="btn btn-primary btn-sm">60KWH <i
-                        class="ti-stats-up"></i></button>
-              </p>
-              <br>
-              <p>Current Utilization
-                <button style="float: right" type="button" class="btn btn-primary btn-sm">80KWH <i
-                        class="ti-bar-chart-alt"></i></button>
-              </p>
-              <br>
-              <p>Required
-                <button style="float: right" type="button" class="btn btn-primary btn-sm">40KWH <i
-                        class="ti-stats-up"></i></button>
-              </p>
-              <br>
-
-              <div class="template-demo">
-                <button type="button" class="btn btn-primary">Peak Load</button>
-                <button type="button" class="btn btn-secondary">PPA</button>
-              </div>
-              <br>
-
             </div>
           </div>
         </div>
 
-      </div>
+
+        <div class="row">
+          <div class="col-md-12 stretch-card grid-margin">
 
 
-      <div class="row">
-        <div class="col-md-12 stretch-card grid-margin">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-title mb-0">Units</p><br>
+                <p>Capacity
+                  <button class="btn btn-primary btn-sm" style="float: right" type="button">60KWH <i
+                          class="ti-stats-up"></i></button>
+                </p>
+                <br>
+                <p>Current Utilization
+                  <button class="btn btn-primary btn-sm" style="float: right" type="button">80KWH <i
+                          class="ti-bar-chart-alt"></i></button>
+                </p>
+                <br>
+                <p>Required
+                  <button class="btn btn-primary btn-sm" style="float: right" type="button">40KWH <i
+                          class="ti-stats-up"></i></button>
+                </p>
+                <br>
 
+                <div class="template-demo">
+                  <button class="btn btn-primary" type="button">Peak Load</button>
+                  <button class="btn btn-secondary" type="button">PPA</button>
+                </div>
+                <br>
 
-          <div class="card">
-            <div class="card-body">
-              <div class="table-responsive">
-                <table class="table table-striped table-borderless">
-                  <thead>
-                  <tr>
-                    <th>Meter Type</th>
-                    <th>Total</th>
-                    <th>Completed</th>
-                    <th>FTR</th>
-                    <th>FTR %</th>
-                    <th>Defect</th>
-                    <th>Defect %</th>
-
-
-                  </tr>
-                  </thead>
-                  <tbody>
-
-                  <tr>
-
-                    <td>1 &empty; Meter
-                    </td>
-                    <td>4,50,000</td>
-                    <td>2,50,000</td>
-                    <td>2,43,000</td>
-                    <td>197%</td>
-                    <td>7,000</td>
-                    <td>3%</td>
-
-                  </tr>
-
-
-                  <tr>
-
-                    <td>3 &empty; Meter
-                    </td>
-                    <td>15,00,000</td>
-                    <td>5,00,000</td>
-                    <td>4,85,000</td>
-                    <td>97%</td>
-                    <td>15,000</td>
-                    <td>3%</td>
-
-                  </tr>
-
-                  <tr>
-
-                    <td>3 &empty; LTCT Meter
-                    </td>
-                    <td>14,00,000</td>
-                    <td>8,00,000</td>
-                    <td>7,91,000</td>
-                    <td>99%</td>
-                    <td>9,000</td>
-                    <td>1%</td>
-
-                  </tr>
-
-
-                  </tbody>
-                </table>
               </div>
             </div>
           </div>
+
         </div>
+
+
+        <div class="row">
+          <div class="col-md-12 stretch-card grid-margin">
+
+
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-striped table-borderless">
+                    <thead>
+                    <tr>
+                      <th>Meter Type</th>
+                      <th>Total</th>
+                      <th>Completed</th>
+                      <th>FTR</th>
+                      <th>FTR %</th>
+                      <th>Defect</th>
+                      <th>Defect %</th>
+
+
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+
+                      <td>1 &empty; Meter
+                      </td>
+                      <td>4,50,000</td>
+                      <td>2,50,000</td>
+                      <td>2,43,000</td>
+                      <td>197%</td>
+                      <td>7,000</td>
+                      <td>3%</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                      <td>3 &empty; Meter
+                      </td>
+                      <td>15,00,000</td>
+                      <td>5,00,000</td>
+                      <td>4,85,000</td>
+                      <td>97%</td>
+                      <td>15,000</td>
+                      <td>3%</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <td>3 &empty; LTCT Meter
+                      </td>
+                      <td>14,00,000</td>
+                      <td>8,00,000</td>
+                      <td>7,91,000</td>
+                      <td>99%</td>
+                      <td>9,000</td>
+                      <td>1%</td>
+
+                    </tr>
+
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
 
       </div>
 
 
     </div>
+    <!-- content-wrapper ends -->
+    <!-- partial:partials/_footer.html -->
 
-
+    <!-- partial -->
   </div>
-  <!-- content-wrapper ends -->
-  <!-- partial:partials/_footer.html -->
-
-  <!-- partial -->
-</div>
-<!-- main-panel ends -->
+  <!-- main-panel ends -->
 </div>
 <!-- page-body-wrapper ends -->
-</div>
 <!-- container-scroller -->
 
 <!-- plugins:js -->

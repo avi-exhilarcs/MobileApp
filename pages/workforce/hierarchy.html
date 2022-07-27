@@ -4,35 +4,35 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
   <title>TANGEDCO</title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="../../vendors/feather/feather.css">
-  <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <link href="../../vendors/feather/feather.css" rel="stylesheet">
+  <link href="../../vendors/ti-icons/css/themify-icons.css" rel="stylesheet">
+  <link href="../../vendors/css/vendor.bundle.base.css" rel="stylesheet">
   <!-- endinject -->
   <!-- Plugin css for this page -->
-  <link rel="stylesheet" href="../../vendors/datatables.net-bs4/dataTables.bootstrap4.css">
-  <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" type="text/css" href="../../js/select.dataTables.min.css">
+  <link href="../../vendors/datatables.net-bs4/dataTables.bootstrap4.css" rel="stylesheet">
+  <link href="../../vendors/ti-icons/css/themify-icons.css" rel="stylesheet">
+  <link href="../../js/select.dataTables.min.css" rel="stylesheet" type="text/css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="../../css/vertical-layout-light/style.css">
+  <link href="../../css/vertical-layout-light/style.css" rel="stylesheet">
   <!-- endinject -->
-  <link rel="shortcut icon" href="../../images/favicon.png"/>
+  <link href="../../images/favicon.png" rel="shortcut icon"/>
 </head>
 <body>
 <div class="container-scroller">
   <!-- partial:partials/_navbar.html -->
   <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
     <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-      <a class="navbar-brand brand-logo mr-5" href="../../index.html"><img src="../../images/TANGEDCO.png" class="mr-2"
-                                                                           alt="logo"/></a>
-      <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/TANGEDCO_Logo.png"
-                                                                           alt="logo"/></a>
+      <a class="navbar-brand brand-logo mr-5" href="../../index.html"><img alt="logo" class="mr-2"
+                                                                           src="../../images/TANGEDCO.png"/></a>
+      <a class="navbar-brand brand-logo-mini" href="../../index.html"><img alt="logo"
+                                                                           src="../../images/TANGEDCO_Logo.png"/></a>
     </div>
     <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-      <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+      <button class="navbar-toggler navbar-toggler align-self-center" data-toggle="minimize" type="button">
         <span class="icon-menu"></span>
       </button>
       <ul class="navbar-nav mr-lg-2">
@@ -43,19 +43,19 @@
                   <i class="icon-search"></i>
                 </span>
             </div>
-            <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now"
-                   aria-label="search" aria-describedby="search">
+            <input aria-describedby="search" aria-label="search" class="form-control" id="navbar-search-input"
+                   placeholder="Search now" type="text">
           </div>
         </li>
       </ul>
       <ul class="navbar-nav navbar-nav-right">
         <li class="nav-item dropdown">
-          <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+          <a class="nav-link count-indicator dropdown-toggle" data-toggle="dropdown" href="#" id="notificationDropdown">
             <i class="icon-bell mx-0"></i>
             <span class="count"></span>
           </a>
-          <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
-               aria-labelledby="notificationDropdown">
+          <div aria-labelledby="notificationDropdown"
+               class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list">
             <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
             <a class="dropdown-item preview-item">
               <div class="preview-thumbnail">
@@ -99,10 +99,10 @@
           </div>
         </li>
         <li class="nav-item nav-profile dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-            <img src="../../images/faces/face28.jpg" alt="profile"/>
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="profileDropdown">
+            <img alt="profile" src="../../images/faces/face28.jpg"/>
           </a>
-          <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+          <div aria-labelledby="profileDropdown" class="dropdown-menu dropdown-menu-right navbar-dropdown">
             <a class="dropdown-item">
               <i class="ti-settings text-primary"></i>
               Settings
@@ -114,8 +114,8 @@
           </div>
         </li>
       </ul>
-      <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
-              data-toggle="offcanvas">
+      <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" data-toggle="offcanvas"
+              type="button">
         <span class="icon-menu"></span>
       </button>
     </div>
@@ -125,7 +125,7 @@
     <!-- partial:partials/_settings-panel.html -->
     <div class="theme-setting-wrapper">
       <div id="settings-trigger"><i class="ti-settings"></i></div>
-      <div id="theme-settings" class="settings-panel">
+      <div class="settings-panel" id="theme-settings">
         <i class="settings-close ti-close"></i>
         <p class="settings-heading">SIDEBAR SKINS</p>
         <div class="sidebar-bg-options selected" id="sidebar-light-theme">
@@ -159,7 +159,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="collapse" href="#billing" aria-expanded="false" aria-controls="billing">
+          <a aria-controls="billing" aria-expanded="false" class="nav-link" data-toggle="collapse" href="#billing">
             <i class="icon-layout menu-icon"></i>
             <span class="menu-title">Billing</span>
             <i class="menu-arrow"></i>
@@ -172,7 +172,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="collapse" href="#fms" aria-expanded="false" aria-controls="fms">
+          <a aria-controls="fms" aria-expanded="false" class="nav-link" data-toggle="collapse" href="#fms">
             <i class="icon-layout menu-icon"></i>
             <span class="menu-title">FMS</span>
             <i class="menu-arrow"></i>
@@ -186,7 +186,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="collapse" href="#wfm" aria-expanded="false" aria-controls="wfm">
+          <a aria-controls="wfm" aria-expanded="false" class="nav-link" data-toggle="collapse" href="#wfm">
             <i class="icon-layout menu-icon"></i>
             <span class="menu-title">WFM</span>
             <i class="menu-arrow"></i>
@@ -207,12 +207,12 @@
       <div class="content-wrapper">
         <div class="row" style="position: sticky;top:0;">
           <div class="col-12 grid-margin stretch-card">
-            <div class="btn-group" role="group" aria-label="Basic example" style="width:100%">
+            <div aria-label="Basic example" class="btn-group" role="group" style="width:100%">
               <a href="hierarchy.html">
-                <button type="button" class="btn btn-primary active">Hierarchy</button>
+                <button class="btn btn-primary active" type="button">Hierarchy</button>
               </a>
               <a href="overview.html" style="margin-left: 10px;">
-                <button type="button" class="btn btn-info">Overview</button>
+                <button class="btn btn-info" type="button">Overview</button>
               </a>
             </div>
           </div>
@@ -223,11 +223,11 @@
 
         <div class="justify-content-end d-flex">
           <div class="dropdown flex-md-grow-1 flex-xl-grow-0">
-            <button class="btn btn-sm btn-light bg-white dropdown-toggle" type="button" id="dropdownMenuDate2"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <button aria-expanded="true" aria-haspopup="true" class="btn btn-sm btn-light bg-white dropdown-toggle"
+                    data-toggle="dropdown" id="dropdownMenuDate2" type="button">
               <i class="mdi mdi-calendar"></i>Region
             </button>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuDate2">
+            <div aria-labelledby="dropdownMenuDate2" class="dropdown-menu dropdown-menu-right">
               <a class="dropdown-item" href="#">Region-1</a>
               <a class="dropdown-item" href="#">Region-2</a>
               <a class="dropdown-item" href="#">Region-3</a>
@@ -247,7 +247,7 @@
                 <ul class="icon-data-list">
                   <li>
                     <div class="d-flex">
-                      <img src="../../images/faces/face1.jpg" alt="user">
+                      <img alt="user" src="../../images/faces/face1.jpg">
                       <div>
                         <p class="text-info mb-1">Shara</p>
                         <p class="mb-0">Chief Engineer</p>
@@ -273,10 +273,10 @@
             <div class="card">
               <div class="card-body">
                 <!-- <p class="card-title">Notifications</p> -->
-                <ul class="icon-data-list" s>
+                <ul class="icon-data-list">
                   <li>
                     <div class="d-flex">
-                      <img src="../../images/faces/face2.jpg" alt="user">
+                      <img alt="user" src="../../images/faces/face2.jpg">
                       <div>
                         <p class="text-info mb-1">Randha</p>
                         <p class="mb-0">Divisional Engineer</p>
@@ -303,7 +303,7 @@
                 <ul class="icon-data-list">
                   <li>
                     <div class="d-flex">
-                      <img src="../../images/faces/face3.jpg" alt="user">
+                      <img alt="user" src="../../images/faces/face3.jpg">
                       <div>
                         <p class="text-info mb-1">Charumathi</p>
                         <p class="mb-0">Executive Engineer</p>
@@ -330,7 +330,7 @@
                 <ul class="icon-data-list">
                   <li>
                     <div class="d-flex">
-                      <img src="../../images/faces/face4.jpg" alt="user">
+                      <img alt="user" src="../../images/faces/face4.jpg">
                       <div>
                         <p class="text-info mb-1">Balakumar</p>
                         <p class="mb-0">Assistant Engineer</p>
@@ -356,7 +356,7 @@
                 <ul class="icon-data-list">
                   <li>
                     <div class="d-flex">
-                      <img src="../../images/faces/face3.jpg" alt="user">
+                      <img alt="user" src="../../images/faces/face3.jpg">
                       <div>
                         <p class="text-info mb-1">Allen</p>
                         <p class="mb-0">Junior Engineer</p>
@@ -382,8 +382,7 @@
     <!-- partial -->
   </div>
   <!-- main-panel ends -->
-</div>
-<!-- page-body-wrapper ends -->
+  <!-- page-body-wrapper ends -->
 </div>
 <!-- container-scroller -->
 

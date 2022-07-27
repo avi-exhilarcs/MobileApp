@@ -4,223 +4,235 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
   <title>TANGEDCO</title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="../../vendors/feather/feather.css">
-  <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <link href="../../vendors/feather/feather.css" rel="stylesheet">
+  <link href="../../vendors/ti-icons/css/themify-icons.css" rel="stylesheet">
+  <link href="../../vendors/css/vendor.bundle.base.css" rel="stylesheet">
   <!-- endinject -->
   <!-- Plugin css for this page -->
-  <link rel="stylesheet" href="../../vendors/datatables.net-bs4/dataTables.bootstrap4.css">
-  <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" type="text/css" href="../../js/select.dataTables.min.css">
+  <link href="../../vendors/datatables.net-bs4/dataTables.bootstrap4.css" rel="stylesheet">
+  <link href="../../vendors/ti-icons/css/themify-icons.css" rel="stylesheet">
+  <link href="../../js/select.dataTables.min.css" rel="stylesheet" type="text/css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="../../css/vertical-layout-light/style.css">
+  <link href="../../css/vertical-layout-light/style.css" rel="stylesheet">
   <!-- endinject -->
-  <link rel="shortcut icon" href="../../images/favicon.png" />
+  <link href="../../images/favicon.png" rel="shortcut icon"/>
 </head>
 <body>
-  <div class="container-scroller">
-    <!-- partial:partials/_navbar.html -->
-    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
-      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="../../index.html"><img src="../../images/TANGEDCO.png" class="mr-2" alt="logo"/></a>
-        <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/TANGEDCO_Logo.png" alt="logo"/></a>
-      </div>
-      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-          <span class="icon-menu"></span>
-        </button>
-        <ul class="navbar-nav mr-lg-2">
-          <li class="nav-item nav-search d-none d-lg-block">
-            <div class="input-group">
-              <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
+<div class="container-scroller">
+  <!-- partial:partials/_navbar.html -->
+  <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+    <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+      <a class="navbar-brand brand-logo mr-5" href="../../index.html"><img alt="logo" class="mr-2"
+                                                                           src="../../images/TANGEDCO.png"/></a>
+      <a class="navbar-brand brand-logo-mini" href="../../index.html"><img alt="logo"
+                                                                           src="../../images/TANGEDCO_Logo.png"/></a>
+    </div>
+    <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+      <button class="navbar-toggler navbar-toggler align-self-center" data-toggle="minimize" type="button">
+        <span class="icon-menu"></span>
+      </button>
+      <ul class="navbar-nav mr-lg-2">
+        <li class="nav-item nav-search d-none d-lg-block">
+          <div class="input-group">
+            <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
                 <span class="input-group-text" id="search">
                   <i class="icon-search"></i>
                 </span>
-              </div>
-              <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now" aria-label="search" aria-describedby="search">
             </div>
-          </li>
-        </ul>
-        <ul class="navbar-nav navbar-nav-right">
-          <li class="nav-item dropdown">
-            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
-              <i class="icon-bell mx-0"></i>
-              <span class="count"></span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
-              <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-success">
-                    <i class="ti-info-alt mx-0"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">Application Error</h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    Just now
-                  </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-warning">
-                    <i class="ti-settings mx-0"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">Settings</h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    Private message
-                  </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-info">
-                    <i class="ti-user mx-0"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">New user registration</h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    2 days ago
-                  </p>
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="nav-item nav-profile dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-              <img src="../../images/faces/face28.jpg" alt="profile"/>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-              <a class="dropdown-item">
-                <i class="ti-settings text-primary"></i>
-                Settings
-              </a>
-              <a class="dropdown-item">
-                <i class="ti-power-off text-primary"></i>
-                Logout
-              </a>
-            </div>
-          </li>
-        </ul>
-        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
-          <span class="icon-menu"></span>
-        </button>
-      </div>
-    </nav>
-    <!-- partial -->
-    <div class="container-fluid page-body-wrapper">
-      <!-- partial:partials/_settings-panel.html -->
-      <div class="theme-setting-wrapper">
-        <div id="settings-trigger"><i class="ti-settings"></i></div>
-        <div id="theme-settings" class="settings-panel">
-          <i class="settings-close ti-close"></i>
-          <p class="settings-heading">SIDEBAR SKINS</p>
-          <div class="sidebar-bg-options selected" id="sidebar-light-theme"><div class="img-ss rounded-circle bg-light border mr-3"></div>Light</div>
-          <div class="sidebar-bg-options" id="sidebar-dark-theme"><div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark</div>
-          <p class="settings-heading mt-2">HEADER SKINS</p>
-          <div class="color-tiles mx-0 px-4">
-            <div class="tiles success"></div>
-            <div class="tiles warning"></div>
-            <div class="tiles danger"></div>
-            <div class="tiles info"></div>
-            <div class="tiles dark"></div>
-            <div class="tiles default"></div>
+            <input aria-describedby="search" aria-label="search" class="form-control" id="navbar-search-input"
+                   placeholder="Search now" type="text">
           </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav navbar-nav-right">
+        <li class="nav-item dropdown">
+          <a class="nav-link count-indicator dropdown-toggle" data-toggle="dropdown" href="#" id="notificationDropdown">
+            <i class="icon-bell mx-0"></i>
+            <span class="count"></span>
+          </a>
+          <div aria-labelledby="notificationDropdown"
+               class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list">
+            <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
+            <a class="dropdown-item preview-item">
+              <div class="preview-thumbnail">
+                <div class="preview-icon bg-success">
+                  <i class="ti-info-alt mx-0"></i>
+                </div>
+              </div>
+              <div class="preview-item-content">
+                <h6 class="preview-subject font-weight-normal">Application Error</h6>
+                <p class="font-weight-light small-text mb-0 text-muted">
+                  Just now
+                </p>
+              </div>
+            </a>
+            <a class="dropdown-item preview-item">
+              <div class="preview-thumbnail">
+                <div class="preview-icon bg-warning">
+                  <i class="ti-settings mx-0"></i>
+                </div>
+              </div>
+              <div class="preview-item-content">
+                <h6 class="preview-subject font-weight-normal">Settings</h6>
+                <p class="font-weight-light small-text mb-0 text-muted">
+                  Private message
+                </p>
+              </div>
+            </a>
+            <a class="dropdown-item preview-item">
+              <div class="preview-thumbnail">
+                <div class="preview-icon bg-info">
+                  <i class="ti-user mx-0"></i>
+                </div>
+              </div>
+              <div class="preview-item-content">
+                <h6 class="preview-subject font-weight-normal">New user registration</h6>
+                <p class="font-weight-light small-text mb-0 text-muted">
+                  2 days ago
+                </p>
+              </div>
+            </a>
+          </div>
+        </li>
+        <li class="nav-item nav-profile dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="profileDropdown">
+            <img alt="profile" src="../../images/faces/face28.jpg"/>
+          </a>
+          <div aria-labelledby="profileDropdown" class="dropdown-menu dropdown-menu-right navbar-dropdown">
+            <a class="dropdown-item">
+              <i class="ti-settings text-primary"></i>
+              Settings
+            </a>
+            <a class="dropdown-item">
+              <i class="ti-power-off text-primary"></i>
+              Logout
+            </a>
+          </div>
+        </li>
+      </ul>
+      <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" data-toggle="offcanvas"
+              type="button">
+        <span class="icon-menu"></span>
+      </button>
+    </div>
+  </nav>
+  <!-- partial -->
+  <div class="container-fluid page-body-wrapper">
+    <!-- partial:partials/_settings-panel.html -->
+    <div class="theme-setting-wrapper">
+      <div id="settings-trigger"><i class="ti-settings"></i></div>
+      <div class="settings-panel" id="theme-settings">
+        <i class="settings-close ti-close"></i>
+        <p class="settings-heading">SIDEBAR SKINS</p>
+        <div class="sidebar-bg-options selected" id="sidebar-light-theme">
+          <div class="img-ss rounded-circle bg-light border mr-3"></div>
+          Light
+        </div>
+        <div class="sidebar-bg-options" id="sidebar-dark-theme">
+          <div class="img-ss rounded-circle bg-dark border mr-3"></div>
+          Dark
+        </div>
+        <p class="settings-heading mt-2">HEADER SKINS</p>
+        <div class="color-tiles mx-0 px-4">
+          <div class="tiles success"></div>
+          <div class="tiles warning"></div>
+          <div class="tiles danger"></div>
+          <div class="tiles info"></div>
+          <div class="tiles dark"></div>
+          <div class="tiles default"></div>
         </div>
       </div>
-      <!-- partial -->
-      <!-- partial:partials/_sidebar.html -->
-   
-      <nav class="sidebar sidebar-offcanvas" id="sidebar">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="../../index.html">
-              <i class="icon-grid menu-icon"></i>
-              <span class="menu-title">Home</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#billing" aria-expanded="false" aria-controls="billing">
-              <i class="icon-layout menu-icon"></i>
-              <span class="menu-title">Billing</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="billing">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../billing/billing.html">Pay Now</a></li>
-                <li class="nav-item"> <a class="nav-link" href="../billing/reports.html">Reports</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#fms" aria-expanded="false" aria-controls="fms">
-              <i class="icon-layout menu-icon"></i>
-              <span class="menu-title">FMS</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="fms">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../fms/taskmanagement.html">Dashboard</a></li>
-                <li class="nav-item"> <a class="nav-link" href="../fms/ticketdetails.html">Ticket Details</a></li>
-                <li class="nav-item"> <a class="nav-link" href="../fms/performers.html">Performers</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#wfm" aria-expanded="false" aria-controls="wfm">
-              <i class="icon-layout menu-icon"></i>
-              <span class="menu-title">WFM</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="wfm">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../workforce/hierarchy.html">Hierarchy</a></li>
-                <li class="nav-item"> <a class="nav-link" href="../workforce/overview.html">Overview</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </nav>
+    </div>
+    <!-- partial -->
+    <!-- partial:partials/_sidebar.html -->
 
-      <!-- partial -->
-      <div class="main-panel">
-        <div class="content-wrapper">
-          <div class="row" style="position: sticky;top:0;">
-          
-              
-                <div class="col-12 col-xl-8 mb-4 mb-xl-0" >
-                  <h3 class="font-weight-bold" >Reports</h3>
-                </div>
-               
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../../index.html">
+            <i class="icon-grid menu-icon"></i>
+            <span class="menu-title">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a aria-controls="billing" aria-expanded="false" class="nav-link" data-toggle="collapse" href="#billing">
+            <i class="icon-layout menu-icon"></i>
+            <span class="menu-title">Billing</span>
+            <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="billing">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"><a class="nav-link" href="../billing/billing.html">Pay Now</a></li>
+              <li class="nav-item"><a class="nav-link" href="../billing/reports.html">Reports</a></li>
+            </ul>
           </div>
+        </li>
+        <li class="nav-item">
+          <a aria-controls="fms" aria-expanded="false" class="nav-link" data-toggle="collapse" href="#fms">
+            <i class="icon-layout menu-icon"></i>
+            <span class="menu-title">FMS</span>
+            <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="fms">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"><a class="nav-link" href="../fms/taskmanagement.html">Dashboard</a></li>
+              <li class="nav-item"><a class="nav-link" href="../fms/ticketdetails.html">Ticket Details</a></li>
+              <li class="nav-item"><a class="nav-link" href="../fms/performers.html">Performers</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a aria-controls="wfm" aria-expanded="false" class="nav-link" data-toggle="collapse" href="#wfm">
+            <i class="icon-layout menu-icon"></i>
+            <span class="menu-title">WFM</span>
+            <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="wfm">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"><a class="nav-link" href="../workforce/hierarchy.html">Hierarchy</a></li>
+              <li class="nav-item"><a class="nav-link" href="../workforce/overview.html">Overview</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- partial -->
+    <div class="main-panel">
+      <div class="content-wrapper">
+        <div class="row" style="position: sticky;top:0;">
+
+
+          <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+            <h3 class="font-weight-bold">Reports</h3>
+          </div>
+
+        </div>
 
         <a href="powerconsumption.html">
           <div class="row">
             <div class="col-md-12 grid-margin stretch-card">
               <div class="card position-relative">
                 <div class="card-body">
-                  <div id="detailedReports" class="carousel slide detailed-report-carousel position-static pt-2" data-ride="carousel">
+                  <div class="carousel slide detailed-report-carousel position-static pt-2" data-ride="carousel"
+                       id="detailedReports">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <div class="row">
                           <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
-                           
+
                             <p class="card-title">Power Consumption</p>
-                           
-                            </div>
+
+                          </div>
                           <div class="col-md-12 col-xl-9">
                             <div class="row">
                               <div class="col-md-6 border-right">
                                 <div class="table-responsive mb-3 mb-md-0 mt-3">
-                                 
+
                                 </div>
                               </div>
                               <div class="col-md-6 mt-3">
@@ -234,16 +246,16 @@
                       </div>
                       <div class="carousel-item">
                         <div class="row">
-                            <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
-                           
-                                <p class="card-title">Power Consumption</p>
-                               
-                                </div>
+                          <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
+
+                            <p class="card-title">Power Consumption</p>
+
+                          </div>
                           <div class="col-md-12 col-xl-9">
                             <div class="row">
                               <div class="col-md-6 border-right">
                                 <div class="table-responsive mb-3 mb-md-0 mt-3">
-                                  
+
                                 </div>
                               </div>
                               <div class="col-md-6 mt-3">
@@ -259,16 +271,16 @@
 
                       <div class="carousel-item">
                         <div class="row">
-                            <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
-                           
-                                <p class="card-title">Power Consumption</p>
-                               
-                                </div>
+                          <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
+
+                            <p class="card-title">Power Consumption</p>
+
+                          </div>
                           <div class="col-md-12 col-xl-9">
                             <div class="row">
                               <div class="col-md-6 border-right">
                                 <div class="table-responsive mb-3 mb-md-0 mt-3">
-                                  
+
                                 </div>
                               </div>
                               <div class="col-md-6 mt-3">
@@ -282,12 +294,12 @@
                       </div>
 
                     </div>
-                    <a class="carousel-control-prev" href="#detailedReports" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <a class="carousel-control-prev" data-slide="prev" href="#detailedReports" role="button">
+                      <span aria-hidden="true" class="carousel-control-prev-icon"></span>
                       <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#detailedReports" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <a class="carousel-control-next" data-slide="next" href="#detailedReports" role="button">
+                      <span aria-hidden="true" class="carousel-control-next-icon"></span>
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
@@ -296,266 +308,255 @@
             </div>
           </div>
         </a>
-         
- 
 
-          <a href="timeofday.html">
+
+        <a href="timeofday.html">
           <div class="row">
             <div class="col-md-7 grid-margin stretch-card">
               <div class="card">
-               
+
                 <div class="card-body">
-                    <div class="d-flex justify-content-between">
-                     <p class="card-title">Time of Day Analysis</p>
-                    </div>
-                     <div id="sales-legend" class="chartjs-legend mt-4 mb-2"></div>
-                     <canvas id="sales-chart"></canvas>
-                   </div>
-                  
+                  <div class="d-flex justify-content-between">
+                    <p class="card-title">Time of Day Analysis</p>
+                  </div>
+                  <div class="chartjs-legend mt-4 mb-2" id="sales-legend"></div>
+                  <canvas id="sales-chart"></canvas>
                 </div>
+
               </div>
             </div>
+          </div>
         </a>
 
 
-            <div class="row">
-                <div class="col-md-12 grid-margin stretch-card">
-                  <div class="card position-relative">
-                    <div class="card-body">
-                      <div id="detailedReports" class="carousel slide detailed-report-carousel position-static pt-2" data-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <div class="row">
-                              <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
-                               
-                                <p class="card-title">Metering</p>
-                               
-                                </div>
-                              <div class="col-md-12 col-xl-9">
-                                <div class="row">
-                                  <div class="col-md-6 border-right">
-                                    <div class="table-responsive mb-3 mb-md-0 mt-3">
-                                     
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 mt-3">
-                                    <canvas id="generated-chart"></canvas>
-                                    <p style="text-align:center">Generated</p>
-                                    <div id="generated-legend"></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
-                               
-                                    <p class="card-title">Metering</p>
-                                   
-                                    </div>
-                              <div class="col-md-12 col-xl-9">
-                                <div class="row">
-                                  <div class="col-md-6 border-right">
-                                    <div class="table-responsive mb-3 mb-md-0 mt-3">
-                                      
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 mt-3">
-                                    <canvas id="consumed-chart"></canvas>
-                                    <p style="text-align:center">Consumed</p>
-    
-                                    <div id="consumed-legend"></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-    
-                          <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
-                               
-                                    <p class="card-title">Metering</p>
-                                   
-                                    </div>
-                              <div class="col-md-12 col-xl-9">
-                                <div class="row">
-                                  <div class="col-md-6 border-right">
-                                    <div class="table-responsive mb-3 mb-md-0 mt-3">
-                                      
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6 mt-3">
-                                    <canvas id="netmetering-chart"></canvas>
-                                    <p style="text-align:center">Net Metering</p>
-                                    <div id="netmetering-legend"></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-    
-                        </div>
-                        <a class="carousel-control-prev" href="#detailedReports" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#detailedReports" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-               <a href="billing.html">
-              <div class="row">
-                <div class="col-md-12 stretch-card grid-margin">
-                  <div class="card">
-                    <div class="card-body">
-                      <p class="card-title mb-0">Billing</p>
-                      <div class="table-responsive">
-                        <table class="table table-borderless">
-                          <!-- <thead>
-                            <tr>
-                              <th class="pl-0  pb-2 border-bottom">Places</th>
-                              <th class="border-bottom pb-2">Orders</th>
-                              <th class="border-bottom pb-2">Users</th>
-                            </tr>
-                          </thead> -->
-                          <tbody>
-                           
-                           
-                            
-                            <tr>
-                              <td class="pl-0">Current Month</td>
-                              <td><p class="mb-0"><span class="font-weight-bold mr-2">$1300.50</span></p></td>
-                            </tr>
-                            <tr>
-                              <td class="pl-0">Last Month</td>
-                              <td><p class="mb-0"><span class="font-weight-bold mr-2">$720.58</span></p></td>
-                            </tr>
-                            <tr>
-                              <td class="pl-0 pb-0">May 2022</td>
-                              <td class="pb-0"><p class="mb-0"><span class="font-weight-bold mr-2">$2025.60</span></p></td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-             
-
-
-              <div class="row">
-                <div class="col-md-12 stretch-card grid-margin">
-                  <div class="card">
-                    <div class="card-body">
-                      <p class="card-title mb-0">Prepaid Metering</p>
-                      <div class="table-responsive">
-                        <table class="table table-borderless">
-                          <!-- <thead>
-                            <tr>
-                              <th class="pl-0  pb-2 border-bottom">Places</th>
-                              <th class="border-bottom pb-2">Orders</th>
-                              <th class="border-bottom pb-2">Users</th>
-                            </tr>
-                          </thead> -->
-                          <tbody>
-                           
-                           
-                            
-                            <tr>
-                              <td class="pl-0">Current Month</td>
-                              <td><p class="mb-0"><span class="font-weight-bold mr-2">$1300.50</span></p></td>
-                            </tr>
-                            <tr>
-                              <td class="pl-0">Last Month</td>
-                              <td><p class="mb-0"><span class="font-weight-bold mr-2">$720.58</span></p></td>
-                            </tr>
-                            <tr>
-                              <td class="pl-0 pb-0">May 2022</td>
-                              <td class="pb-0"><p class="mb-0"><span class="font-weight-bold mr-2">$2025.60</span></p></td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-
+        <div class="row">
+          <div class="col-md-12 grid-margin stretch-card">
+            <div class="card position-relative">
+              <div class="card-body">
+                <div class="carousel slide detailed-report-carousel position-static pt-2" data-ride="carousel"
+                     id="detailedReports">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
                       <div class="row">
-                        <div class="col-md-6 border-right">
-                          <div class="table-responsive mb-3 mb-md-0 mt-3">
-                            
+                        <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
+
+                          <p class="card-title">Metering</p>
+
+                        </div>
+                        <div class="col-md-12 col-xl-9">
+                          <div class="row">
+                            <div class="col-md-6 border-right">
+                              <div class="table-responsive mb-3 mb-md-0 mt-3">
+
+                              </div>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                              <canvas id="generated-chart"></canvas>
+                              <p style="text-align:center">Generated</p>
+                              <div id="generated-legend"></div>
+                            </div>
                           </div>
                         </div>
-                        <div class="col-md-6 mt-3">
-                          <canvas id="pieChart1-chart"></canvas>
-                          <p style="text-align:center">Prepaid</p>
-                          <div id="pieChart1-legend"></div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
+
+                          <p class="card-title">Metering</p>
+
+                        </div>
+                        <div class="col-md-12 col-xl-9">
+                          <div class="row">
+                            <div class="col-md-6 border-right">
+                              <div class="table-responsive mb-3 mb-md-0 mt-3">
+
+                              </div>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                              <canvas id="consumed-chart"></canvas>
+                              <p style="text-align:center">Consumed</p>
+
+                              <div id="consumed-legend"></div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-
-                      <div class="mt-3">
-                        <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="">Pay Balance</a>
-                      </div>
-
-
                     </div>
+
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
+
+                          <p class="card-title">Metering</p>
+
+                        </div>
+                        <div class="col-md-12 col-xl-9">
+                          <div class="row">
+                            <div class="col-md-6 border-right">
+                              <div class="table-responsive mb-3 mb-md-0 mt-3">
+
+                              </div>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                              <canvas id="netmetering-chart"></canvas>
+                              <p style="text-align:center">Net Metering</p>
+                              <div id="netmetering-legend"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <a class="carousel-control-prev" data-slide="prev" href="#detailedReports" role="button">
+                    <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" data-slide="next" href="#detailedReports" role="button">
+                    <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <a href="billing.html">
+          <div class="row">
+            <div class="col-md-12 stretch-card grid-margin">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-title mb-0">Billing</p>
+                  <div class="table-responsive">
+                    <table class="table table-borderless">
+                      <!-- <thead>
+                        <tr>
+                          <th class="pl-0  pb-2 border-bottom">Places</th>
+                          <th class="border-bottom pb-2">Orders</th>
+                          <th class="border-bottom pb-2">Users</th>
+                        </tr>
+                      </thead> -->
+                      <tbody>
+
+
+                      <tr>
+                        <td class="pl-0">Current Month</td>
+                        <td><p class="mb-0"><span class="font-weight-bold mr-2">$1300.50</span></p></td>
+                      </tr>
+                      <tr>
+                        <td class="pl-0">Last Month</td>
+                        <td><p class="mb-0"><span class="font-weight-bold mr-2">$720.58</span></p></td>
+                      </tr>
+                      <tr>
+                        <td class="pl-0 pb-0">May 2022</td>
+                        <td class="pb-0"><p class="mb-0"><span class="font-weight-bold mr-2">$2025.60</span></p></td>
+                      </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
-             
-
-
-
-
-
-
-
-          
-
+            </div>
           </div>
-          
-       
+        </a>
+
+
+        <div class="row">
+          <div class="col-md-12 stretch-card grid-margin">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-title mb-0">Prepaid Metering</p>
+                <div class="table-responsive">
+                  <table class="table table-borderless">
+                    <!-- <thead>
+                      <tr>
+                        <th class="pl-0  pb-2 border-bottom">Places</th>
+                        <th class="border-bottom pb-2">Orders</th>
+                        <th class="border-bottom pb-2">Users</th>
+                      </tr>
+                    </thead> -->
+                    <tbody>
+
+
+                    <tr>
+                      <td class="pl-0">Current Month</td>
+                      <td><p class="mb-0"><span class="font-weight-bold mr-2">$1300.50</span></p></td>
+                    </tr>
+                    <tr>
+                      <td class="pl-0">Last Month</td>
+                      <td><p class="mb-0"><span class="font-weight-bold mr-2">$720.58</span></p></td>
+                    </tr>
+                    <tr>
+                      <td class="pl-0 pb-0">May 2022</td>
+                      <td class="pb-0"><p class="mb-0"><span class="font-weight-bold mr-2">$2025.60</span></p></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 border-right">
+                    <div class="table-responsive mb-3 mb-md-0 mt-3">
+
+                    </div>
+                  </div>
+                  <div class="col-md-6 mt-3">
+                    <canvas id="pieChart1-chart"></canvas>
+                    <p style="text-align:center">Prepaid</p>
+                    <div id="pieChart1-legend"></div>
+                  </div>
+                </div>
+
+                <div class="mt-3">
+                  <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="">Pay Balance</a>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- content-wrapper ends -->
-        <!-- partial:partials/_footer.html -->
-       
-        <!-- partial -->
+
+
       </div>
-      <!-- main-panel ends -->
+
+
     </div>
-    <!-- page-body-wrapper ends -->
+    <!-- content-wrapper ends -->
+    <!-- partial:partials/_footer.html -->
+
+    <!-- partial -->
   </div>
-  <!-- container-scroller -->
+  <!-- main-panel ends -->
+</div>
+<!-- page-body-wrapper ends -->
+</div>
+<!-- container-scroller -->
 
-  <!-- plugins:js -->
-  <script src="../../vendors/js/vendor.bundle.base.js"></script>
-  <!-- endinject -->
-  <!-- Plugin js for this page -->
-  <script src="../../vendors/chart.js/Chart.min.js"></script>
-  <script src="../../vendors/datatables.net/jquery.dataTables.js"></script>
-  <script src="../../vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
-  <script src="../../js/dataTables.select.min.js"></script>
+<!-- plugins:js -->
+<script src="../../vendors/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- Plugin js for this page -->
+<script src="../../vendors/chart.js/Chart.min.js"></script>
+<script src="../../vendors/datatables.net/jquery.dataTables.js"></script>
+<script src="../../vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+<script src="../../js/dataTables.select.min.js"></script>
 
-  <!-- End plugin js for this page -->
-  <!-- inject:js -->
-  <script src="../../js/off-canvas.js"></script>
-  <script src="../../js/hoverable-collapse.js"></script>
-  <script src="../../js/template.js"></script>
-  <script src="../../js/settings.js"></script>
-  <script src="../../js/todolist.js"></script>
-  <!-- endinject -->
-  <!-- Custom js for this page-->
-  <script src="../../js/dashboard.js"></script>
-  <script src="../../js/Chart.roundedBarCharts.js"></script>
-  <!-- End custom js for this page-->
+<!-- End plugin js for this page -->
+<!-- inject:js -->
+<script src="../../js/off-canvas.js"></script>
+<script src="../../js/hoverable-collapse.js"></script>
+<script src="../../js/template.js"></script>
+<script src="../../js/settings.js"></script>
+<script src="../../js/todolist.js"></script>
+<!-- endinject -->
+<!-- Custom js for this page-->
+<script src="../../js/dashboard.js"></script>
+<script src="../../js/Chart.roundedBarCharts.js"></script>
+<!-- End custom js for this page-->
 </body>
 
 </html>
